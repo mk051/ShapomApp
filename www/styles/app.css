@@ -1,0 +1,16 @@
+.page-right-border {
+  border-right: 1px solid #ccc;
+}
+
+p.title-text {
+	width:200px;
+	height:200px;
+	background-color:#FF8888; 
+	border:solid 2px #FF0000; 
+	border-radius: 100px 100px 100px 100px;
+	color:#FFFFFF;
+	vertical-align: middle;
+    display: table-cell;
+    font-size: 2em;
+}	
+
