@@ -37,16 +37,23 @@
 
       <div class="content-padded" style="text-align: center; color: #999;">
 
-        <div class="box02">
+        <div class="box">
+          <div class="centered">
           <p class="title-text">TEKITO<br>PHOTO</p>
         </div>
+        </div>
+
         <br>
         <p>KOKONI TITLE</p>
         <p>お気に入りの写真を登録しよう！対戦しよう！</p>	
 
-        <ons-button
-          modifier="large"
-          ng-click="ons.splitView.setMainPage('detail');">TAP！</ons-button>
+
+        <div class="box">
+          <div class="centered">
+            <p class="tap-text" ng-click="ons.splitView.setMainPage('detail');">TAP!</p>
+          </div>
+        </div>
+
 
         <p>タップしてはじめよう</p>
 
@@ -81,11 +88,38 @@
         <div class="center">対戦ページ</div>
       </ons-toolbar>
 
-      <div>
+        <ons-row style="color: #333">
+          <ons-col>
         <span><img src="images/t02400146p.jpg" alt="7gogoコワーキングスペース！" style="width: 150px; height: 150px;"></span>
+          </ons-col>
+          <ons-col>
         <span style="font-size: 2em;">VS</span>
+          </ons-col>
+          <ons-col>
         <span><img src="images/t02400240p.jpg" alt="はじめての本気ダイエット生活" style="width: 150px; height: 150px;"></span>
+          </ons-col>
+        </ons-row>
+        <ons-row style="color: #333">
+          <ons-col>
+            <div class="box">
+              <div class="centered">
+                <p class="tap-text">コッチ!</p>
+              </div>
+           </div>
+          </ons-col>
+          <ons-col>
+          </ons-col>
+          <ons-col>
+            <div class="box">
+              <div class="centered">
+                <p class="tap-text">コッチ!</p>
+              </div>
       </div>
+          </ons-col>
+        </ons-row>
+
+
+
       <br>
 
     </ons-page>

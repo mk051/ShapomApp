@@ -3,14 +3,44 @@
 }
 
 p.title-text {
-	width:200px;
-	height:200px;
+	width           :200px;
+	height          :200px;
 	background-color:#FF8888; 
-	border:solid 2px #FF0000; 
-	border-radius: 100px 100px 100px 100px;
-	color:#FFFFFF;
-	vertical-align: middle;
-    display: table-cell;
-    font-size: 2em;
+	border          :solid 2px #FF8888; 
+	border-radius   :100px 100px 100px 100px;
+	color           :#FFFFFF;
+	vertical-align  :middle;
+    display         :table-cell;
+    font-size       :2em;
 }	
 
+p.tap-text {
+	width           :100px;
+	height          :100px;
+	background-color:#FF3333; 
+	border          :solid 2px #FF3333; 
+	border-radius   :100px 100px 100px 100px;
+	color           :#FFFFFF;
+	vertical-align  :middle;
+    display         :table-cell;
+    font-size       :1.5em;
+}	
+
+
+.box { 
+  text-align : center;
+}
+ 
+.box:before {
+  content        : '';
+  display        : inline-block;
+  height         : 100%;
+  vertical-align : middle;
+  margin-right   : -0.25em;
+}
+ 
+.centered {
+  display        : inline-block;
+  vertical-align : middle;
+  padding        : 10px 15px;
+}
