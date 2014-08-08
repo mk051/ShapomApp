@@ -57,7 +57,7 @@ function getMedia(container) {
   navigator.getUserMedia = navigator.getUserMedia       || 
                            navigator.webkitGetUserMedia ||
                            navigator.mozGetUserMedia    || 
-                           navigator.msGetUserMedia     ;
+                           navigator.msGetUserMedia;
   navigator.getUserMedia({video: true},
     function(localMediaStream) {
       var myVideo     = container;
@@ -71,9 +71,6 @@ function getMedia(container) {
   );
 }
 
-
-
-
 function CameraPageController($scope)
 {
   $scope.click_Shutter=function(){
@@ -81,7 +78,7 @@ function CameraPageController($scope)
     var myVideo  = document.getElementById('myVideo');
     var myCanvas = document.getElementById('myCanvas');
     var ctx      = myCanvas.getContext("2d");
-    ctx.drawImage(myVideo, 0, 0);
+    ctx.drawImage(myVideo, 0, 0,320,240);
     document.getElementById("myImg").src = myCanvas.toDataURL("image/png");
 
   };

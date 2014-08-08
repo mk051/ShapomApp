@@ -257,22 +257,13 @@
       </ons-toolbar>
 
       <p style="text-align: center">
+        <ons-button id="Camera" ng-click="init()">起動</ons-button>
         <ons-button id="Shutter" ng-click="click_Shutter()">撮影</ons-button>
       </p>
 
-      <div id="editor-render-0" style="width:auto;height:400px;"></div>
-
-
-      <header>
-        <h1>getUserMediaサンプル</h1>
-      </header>
-      <input type="button" value="キャプチャ開始" onclick="getMedia()" />　
-      <input type="button" value="撮影" onclick="getCamera()" /><br/>
-      <video id="myVideo" width="640" height="480"></video>
-      <span>キャンバス</span>
-      <canvas id="myCanvas" width="640" height="480"></canvas>
-      <span>イメージ</span>
-      <img id ="myImg" alt="撮影された画像" />
+      <span>Video </span>   <video  id="myVideo"  width="320px" height="240px"></video><br>
+      <span>canvas</span>   <canvas id="myCanvas" width="320px" height="240px"></canvas><br>
+      <span>image </span>   <img    id ="myImg"   alt="撮影された画像" />
 
 
     </ons-page>
